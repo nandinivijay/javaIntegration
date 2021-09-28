@@ -2,8 +2,12 @@ package javaGitIntegration;
 
 public class Calculator {
 
-	public Calculator() {
-		// TODO Auto-generated constructor stub
+	public Calculator()
+	{
+		int q = 0;
+		int x=12,y=3;
+		q=x/y;
+		System.out.println(q);
 	}
 	
 	
