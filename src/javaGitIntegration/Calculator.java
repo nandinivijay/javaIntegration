@@ -12,5 +12,10 @@ public class Calculator {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public static int subtraction(int a,int b) {
+		int sub;
+		return  sub=a-b;
+	}
 
 }
