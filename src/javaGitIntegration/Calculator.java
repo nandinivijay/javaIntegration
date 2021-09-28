@@ -2,6 +2,7 @@ package javaGitIntegration;
 
 public class Calculator {
 
+
 	public Calculator()
 	{
 		
@@ -13,11 +14,31 @@ public class Calculator {
 		q=x/y;
 		System.out.println(q);
 	}
+	static int  a;
+	public void Calculator() {
+	}
+		
+		// TODO Auto-generated constructor stub
+	public static int multiply(int a,int b)
+	{
+		int mul=a*b;
+		return mul;
+
+	}
+
 	
-	
+	public static int add(int b,int c) {
+		a=b+c;
+		return a;
+	}
 
 	public static void main(String[] args) {
+
 		// TODO Auto-generated method stub
+  System.out.println(multiply(3,6));
+
+		System.out.println("sum is : " +add(5,10));
+
 
 	}
 
