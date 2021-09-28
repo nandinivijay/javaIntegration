@@ -4,6 +4,10 @@ public class Calculator {
 
 	public Calculator()
 	{
+		
+	}
+	public void division()
+	{
 		int q = 0;
 		int x=12,y=3;
 		q=x/y;
