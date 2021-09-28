@@ -2,10 +2,12 @@ package javaGitIntegration;
 
 public class Calculator {
 
+
 	public Calculator() 
 	{
 		
 	}
+	
 	
 	public static void division()
 	{
