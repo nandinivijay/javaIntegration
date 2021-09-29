@@ -42,9 +42,17 @@ public class Calculator {
 		a=b+c;
 		return a;	}
 	
+
 	public static int add3(int b,int c,int d) {
 		a=b+c+d;
 		return a;	}
+
+	
+	public static int product3(int a,int b,int c)
+	{
+	return a*b*c;	
+	
+	}
 
 	public static void main(String[] args) {
 
@@ -53,7 +61,7 @@ System.out.println(multiply(3,6));
 System.out.println(subtraction(10,20));
 System.out.println("sum is : " +add(5,10));
 System.out.println("sum is : " +add3(5,10,5));
-
+System.out.println("product  is : " +product3(5,10,5));
 division();
 	}
 	
