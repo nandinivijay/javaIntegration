@@ -41,6 +41,10 @@ public class Calculator {
 	public static int add(int b,int c) {
 		a=b+c;
 		return a;	}
+	
+	public static int add3(int b,int c,int d) {
+		a=b+c+d;
+		return a;	}
 
 	public static void main(String[] args) {
 
@@ -48,6 +52,7 @@ public class Calculator {
 System.out.println(multiply(3,6));
 System.out.println(subtraction(10,20));
 System.out.println("sum is : " +add(5,10));
+System.out.println("sum is : " +add3(5,10,5));
 
 division();
 	}
